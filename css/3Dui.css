@@ -1,0 +1,24 @@
+.UIElement {
+    position: absolute;
+    padding: 10px;
+    background-color: #3c3c3c;
+    opacity: 85%;
+    color: white;
+    white-space: nowrap;
+    border-style: solid;
+    border-color: #808080;
+    font-family: arial, sans-serif;
+}
+
+.UISphere{
+    position: absolute;
+    padding: 5px 8px;
+    opacity: 85%;
+    white-space: nowrap;
+    border-style: solid;
+    border-color: #808080;
+    font-family: arial, sans-serif;
+    background-color: #1f1f1f;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+}

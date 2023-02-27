@@ -1,0 +1,51 @@
+<html lang="en">
+	<head>
+		<title>Threejs-viewer-demo</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
+		<link rel="stylesheet" href="css/main.css"/>
+		<link rel="stylesheet" href="css/3Dui.css"/>
+		<script src="./js/jszip.min.js"></script>
+		<script src="./js/jszip-utils.min.js"></script>
+		<script src="./js/bundle.js" defer></script>
+	</head>
+<body>
+
+	<div class="annotation_window" id="annotation_edit">
+		<div class="annotation_editor">
+			<input id="annotation_id" type="hidden" value="">
+			<div class="contextmenu_item">Edit Notification</div>
+			<hr>
+			<input id="annotation_label" type="text" placeholder="label">
+			<input id="annotation_title" type="text" placeholder="title">
+			<textarea id="annotation_description" rows="6" placeholder="description"></textarea>
+			<div class="annotation_buttons">
+				<button id="save_annotation" class="button_as_link">Save</button>
+				<button id="cancel_annotation" class="button_as_link">Cancel</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="annotation_window" id="right_click_contextmenu">
+		<hr>
+		<div class="annotation_creator">
+			<button id="create_annotation" class="button_as_link contextmenu_item">Add Notification</button>
+		</div>
+		<hr>
+	</div>
+
+	<div class="annotation_window" id="annotation_contextmenu">
+		<hr>
+		<div class="annotation_edit">
+			<button id="edit_annotation" class="button_as_link contextmenu_item">Edit Notification</button>
+		</div>
+
+		<hr>
+
+		<div class="annotation_remove">
+			<button id="remove_annotation" class="button_as_link contextmenu_item">Remove Notification</button>
+		</div>
+		<hr>
+	</div>
+</body>
+</html>
